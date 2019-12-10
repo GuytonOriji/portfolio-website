@@ -3147,3 +3147,62 @@ input, select, textarea {
 					}
 
 	}
+
+
+
+
+
+
+
+	/*DIGITAL CLOCK*/
+
+.clock_{
+position:absolute;
+right:5px;
+top:0;
+width:130px;
+height:50px;
+padding:5px;
+-webkit-text-fill-color:#fff;
+color:#fff;
+text-shadow:0 0 5px #000;
+-webkit-text-stroke:.3px #000;
+text-align:center;
+justify-content:center;
+align-items:center;
+align-content:center;
+overflow:hidden;
+display:flex;
+z-index:1111;
+font-weight:bolder;
+font-size:1.5rem;
+
+}
+
+.clock_text{
+position:relative;
+text-align:center;
+justify-content:center;
+align-items:center;
+align-content:center;
+width:100%;
+height:100%;
+margin:5px;
+cursor:wait;
+}
+
+
+#moon{
+-webkit-text-fill-color:gray;
+text-shadow:0 0 5px gray;
+border:none;
+}#sun{
+-webkit-text-fill-color:yellow;
+text-shadow:0 0 5px yellow;
+border:none;
+}
+
+
+/*DIGITAL CLOCK*/
+
+
